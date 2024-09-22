@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile Page| SocialBook Easy</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/433e5f9079.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+      <a href="index.html">
+        <img src="./images/logo2.png" alt="logo" class="logo" />
+      </a>
+        <ul>
+          <li><img src="./images/notification.png" /></li>
+          <li><img src="./images/inbox.png" alt="inbox" /></li>
+          <li><img src="./images/video.png" alt="video" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="./images/search.png" alt="search" />
+          <input type="text" placeholder="search" />
+        </div>
+    
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="./images/profile-pic.png" alt="profile" />
+        </div>
+    
+        <!-- Settings menu -->
+        <div class="settings-menu">
+          <div class="dark-btn-on"id="dark-btn" >
+            <span></span>
+          </div>
+          <div class="settings-menu-inner">
+            <div class="user-profile">
+              <img src="./images/profile-pic.png" alt="profile-pic" />
+              <div>
+                <p>John Nicholas</p>
+                <a href="./profile.html">See Your Profile</a>
+              </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+              <img src="./images/feedback.png" alt="profile-pic" />
+              <div>
+                <p>Give a Feedback</p>
+                <a href="#">Help us to improve new design</a>
+              </div>
+            </div>
+    
+            <hr>
+    
+            <div class="settings-links">
+              <img src="./images/setting.png" alt="settings" class="settings-icon">
+              <a href="#">Settings & Privacy <img src="./images/arrow.png" alt="arrow" class="arrow-icon" width="10px"></a>
+            </div>
+            <div class="settings-links">
+              <img src="./images/help.png" alt="help" class="settings-icon">
+              <a href="#">Help & Support <img src="./images/arrow.png" alt="arrow" class="arrow-icon" width="10px"></a>
+            </div>
+    
+            <div class="settings-links">
+              <img src="./images/display.png" alt="display" class="settings-icon">
+              <a href="#">Display & Accessibility <img src="./images/arrow.png" alt="arrow" class="arrow-icon" width="10px"></a>
+            </div>
+            <div class="settings-links">
+              <img src="./images/logout.png" alt="logout" class="settings-icon">
+              <a href="#">Logout <img src="./images/arrow.png" alt="arrow" class="arrow-icon" width="10px"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="profile-container">
+      <img src="./images/cover.png" alt="Cover Image" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="./images/profile.png" alt="Profile Picture" class="pd-image" />
+            <div>
+              <h3>Jack Nicholas</h3>
+              <p>120 friends - 20 mutual</p>
+              <!-- Member Images -->
+              <img src="./images/member-1.png" alt="Mutual Friend 1" class="pd-member-image" />
+              <img src="./images/member-2.png" alt="Mutual Friend 2" class="pd-member-image" />
+              <img src="./images/member-3.png" alt="Mutual Friend 3" class="pd-member-image" />
+              <img src="./images/member-4.png" alt="Mutual Friend 4" class="pd-member-image" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">  
+          <button type="button"><img src="./images/add-friends.png" alt="Add Friends Icon" />Friends</button>
+          <button type="button"><img src="./images/message.png" alt="Message Icon" />Message</button>
+        <a href="#"><img src="./images/more.png" alt="More Options Icon"></a>
+        </div>
+
+ </div>
+      
+      <div class="profile-info">
+        <div class="info-col">
+       <div class="profile-intro">
+        <h3>intro</h3>
+        <p class="intro-text">Believe in yourself and you do unbelievable things.
+          <img src="images/feeling.png" alt="feeling">
+        </p>
+        <hr>
+      <ul>
+        <li><img src="images/profile-job.png" alt="job"> Director at 99media Ltd</li>
+        <li><img src="images/profile-study.png" alt="university">studied at King's College London</li>
+        <li><img src="images/profile-study.png" alt="london">went to DPS delhi</li>
+         <li><img src="images/profile-home.png" alt="london">lives in Iraq-Kurdistan</li>
+        <li><img src="images/profile-location.png" alt="location">from erbil</li>
+
+      </ul>
+       </div>
+         
+       <div class="profile-intro">
+        <div class="title-box">
+          <h3>Photos</h3>
+        <a href="">Show all</a>
+      </div>
+       
+        <div class="photo-box">
+          <div><img src="images/photo1.png" alt="photo-1"></div>
+          <div><img src="images/photo2.png" alt="photo-2"></div>
+          <div><img src="images/photo3.png" alt="photo-3"></div>
+          <div><img src="images/photo4.png" alt="photo-4"></div>
+          <div><img src="images/photo5.png" alt="photo-5"></div>
+          <div><img src="images/photo6.png" alt="photo-6"></div>
+
+        </div>
+       </div>
+
+
+       <div class="profile-intro">
+        <div class="title-box">
+          <h3>friends</h3>
+        <a href="" >All friends</a>
+      </div>
+       <p>120 friends - 20 mutual</p>
+        <div class="friend-box">
+          <div><img src="images/member-1.png" alt="photo-1"><p>John N</p></div>
+          <div><img src="images/member-2.png" alt="photo-2"><p>Nathan N</p></div>
+          <div><img src="images/member-3.png" alt="photo-3"><p>George D</p></div>
+          <div><img src="images/member-4.png" alt="photo-4"><p>Francis L</p></div>
+          <div><img src="images/member-5.png" alt="photo-5"><p>Anthony C</p></div>
+          <div><img src="images/member-6.png" alt="photo-6"><p>Michael S</p></div>
+          <div><img src="images/member-7.png" alt="photo-7"><p>James Doe</p></div>
+          <div><img src="images/member-8.png" alt="photo-8"><p>Bradon C</p></div>
+          <div><img src="images/member-9.png" alt="photo-6"><p>James Doe</p></div>
+        </div>
+       </div>
+        </div>
+
+
+
+
+        <div class="post-col">
+          <div class="write-post-container">
+          
+            <div class="user-profile">
+              <img src="./images/profile-pic.png" alt="profile-pic" />
+              <div>
+                <p>John Nicholas</p>
+                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+              </div>
+            </div>
+            <div class="post-input-container">
+              <textarea
+                rows="3"
+                placeholder="What's on your mind, John?"
+              ></textarea>
+              <div class="add-post-links">
+                <a href="#"
+                  ><img src="./images/live-video.png" alt="live-video" />Live
+                  Video</a
+                >
+                <a href="#"
+                  ><img src="./images/photo.png" alt="photo" />Photo/Video</a
+                >
+                <a href="#"
+                  ><img
+                    src="./images/feeling.png"
+                    alt="feeling"
+                  />Feeling/Activity</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <div>
+                  <p>John Nicholas</p>
+                  <span>June 24 2022, 13:40 PM</span>
+                </div>
+              </div>
+              <a href="#"><i. class="fa-solid fa-ellipsis-v"></i.</a>
+            </div>
+            <p class="post-text">Subscribe<span>@Easy Tutorials</span>youtube 
+              channel to watch more videos on programming and UI design 
+              <a href="#">#EasyTutorials</a><a href="#">#Programming</a>
+            </p>
+            <img src="./images/feed-image-1.png" alt="youtube" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="./images/like.png" alt="like" />120</div>
+                <div><img src="./images/comments.png" alt="comments" />45</div>
+                <div><img src="./images/share.png" alt="share" />20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <div>
+                  <p>John Nicholas</p>
+                  <span>June 24 2022, 13:40 PM</span>
+                </div>
+              </div>
+              <a href="#"><i. class="fa-solid fa-ellipsis-v"></i.</a>
+            </div>
+            <p class="post-text">Like and share this video with friends
+              <span>@Easy Tutorials</span>youtube channel to watch more videos on programming and UI design
+              <a href="#">#EasyTutorials</a><a href="#">#Programming</a>
+            </p>
+            <img src="./images/feed-image-2.png" alt="youtube" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="./images/like.png" alt="like" />120</div>
+                <div><img src="./images/comments.png" alt="comments" />45</div>
+                <div><img src="./images/share.png" alt="share" />20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <div>
+                  <p>John Nicholas</p>
+                  <span>June 24 2022, 13:40 PM</span>
+                </div>
+              </div>
+              <a href="#"><i. class="fa-solid fa-ellipsis-v"></i.</a>
+            </div>
+            <p class="post-text">Subscribe<span>@Easy Tutorials</span>youtube 
+              channel to watch more videos on programming and UI design 
+              <a href="#">#EasyTutorials</a><a href="#">#Programming</a>
+            </p>
+            <img src="./images/feed-image-3.png" alt="youtube" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="./images/like.png" alt="like" />120</div>
+                <div><img src="./images/comments.png" alt="comments" />45</div>
+                <div><img src="./images/share.png" alt="share" />20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <div>
+                  <p>John Nicholas</p>
+                  <span>June 24 2022, 13:40 PM</span>
+                </div>
+              </div>
+              <a href="#"><i. class="fa-solid fa-ellipsis-v"></i.</a>
+            </div>
+            <p class="post-text">Subscribe<span>@Easy Tutorials</span>youtube 
+              channel to watch more videos on programming and UI design 
+              <a href="#">#EasyTutorials</a><a href="#">#Programming</a>
+            </p>
+            <img src="./images/feed-image-4.png" alt="youtube" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="./images/like.png" alt="like" />120</div>
+                <div><img src="./images/comments.png" alt="comments" />45</div>
+                <div><img src="./images/share.png" alt="share" />20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <div>
+                  <p>John Nicholas</p>
+                  <span>June 24 2022, 13:40 PM</span>
+                </div>
+              </div>
+              <a href="#"><i. class="fa-solid fa-ellipsis-v"></i.</a>
+            </div>
+            <p class="post-text">Subscribe<span>@Easy Tutorials</span>youtube 
+              channel to watch more videos on programming and UI design 
+              <a href="#">#EasyTutorials</a><a href="#">#Programming</a>
+            </p>
+            <img src="./images/feed-image-5.png" alt="youtube" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="./images/like.png" alt="like" />120</div>
+                <div><img src="./images/comments.png" alt="comments" />45</div>
+                <div><img src="./images/share.png" alt="share" />20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="profile-pic" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+    </div>
+
+
+
+
+
+
+    </div>
+    
+    
+      
+    <div class="footer">
+      <p>Copyright 2022 - Easy Tutorials</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
